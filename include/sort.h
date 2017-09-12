@@ -11,5 +11,6 @@ void print_array ( std::vector< int > _vetor );
 * Sorting functions
 */
 void bubble_sort ( std::vector< int > & _vetor );
+void selection_sort ( std::vector< int > & _vetor );
 
 #endif /* __SORT_H__ */

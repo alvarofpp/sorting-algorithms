@@ -11,7 +11,7 @@ int main(int argc, char * argv[])
 	srand( ( unsigned ) time( 0 ) );
 	std::vector<int> vetor;
 
-	for (size_t num = 1; num < QTDE_TESTES; num++)
+	for (size_t num = 1; num <= QTDE_TESTES; num++)
 	{
 		vetor.resize(num);
 		for (size_t i = 0; i < num; i++)
@@ -20,7 +20,8 @@ int main(int argc, char * argv[])
 		print_array( vetor );
 		std::cout << " <=-=> ";
 
-		bubble_sort( vetor );
+		// bubble_sort( vetor );
+		selection_sort( vetor );
 
 		print_array( vetor );
 		std::cout << std::endl;
