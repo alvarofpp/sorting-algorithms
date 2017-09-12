@@ -10,7 +10,30 @@ void print_array ( std::vector< int > _vetor );
 /*
 * Sorting functions
 */
-void bubble_sort ( std::vector< int > & _vetor );
+
+// Simple sorts
+/*
+* void insertion_sort ( std::vector< int > & _vetor );
+*/
 void selection_sort ( std::vector< int > & _vetor );
+// Efficient sorts
+/*
+* void merge_sort ( std::vector< int > & _vetor );
+* void heapsort ( std::vector< int > & _vetor );
+* void quicksort ( std::vector< int > & _vetor );
+*/
+// Bubble sort and variants
+void bubble_sort ( std::vector< int > & _vetor );
+/*
+* void shellsort ( std::vector< int > & _vetor );
+* void comb_sort ( std::vector< int > & _vetor );
+* void cocktail_shaker_sort ( std::vector< int > & _vetor );
+*/
+// Distribution sort
+/*
+* void counting_sort ( std::vector< int > & _vetor );
+* void bucket_sort ( std::vector< int > & _vetor );
+* void radix_sort ( std::vector< int > & _vetor );
+*/
 
 #endif /* __SORT_H__ */
