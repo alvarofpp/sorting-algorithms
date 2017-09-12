@@ -20,7 +20,7 @@ int main(int argc, char * argv[])
 		print_array( vetor );
 		std::cout << " <=-=> ";
 
-		quicksort( vetor, 0, num );
+		bubble_sort( vetor );
 
 		print_array( vetor );
 		std::cout << std::endl;

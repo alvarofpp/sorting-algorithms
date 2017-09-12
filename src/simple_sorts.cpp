@@ -21,7 +21,7 @@ void insertion_sort ( std::vector< int > & _vetor )
 void selection_sort ( std::vector< int > & _vetor )
 {
 	int size = _vetor.size();
-	int aux, menor;
+	int menor;
 
 	for (int i = 0; i < size; i++)
 	{
@@ -36,8 +36,6 @@ void selection_sort ( std::vector< int > & _vetor )
 				menor = j;
 		}
 
-		aux = _vetor[i];
-		_vetor[i] = _vetor[menor];
-		_vetor[menor] = aux;
+		swap(_vetor, i, menor);
 	}
 }
