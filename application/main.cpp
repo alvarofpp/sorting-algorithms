@@ -20,8 +20,7 @@ int main(int argc, char * argv[])
 		print_array( vetor );
 		std::cout << " <=-=> ";
 
-		// bubble_sort( vetor );
-		selection_sort( vetor );
+		insertion_sort( vetor );
 
 		print_array( vetor );
 		std::cout << std::endl;

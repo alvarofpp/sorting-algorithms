@@ -12,9 +12,7 @@ void print_array ( std::vector< int > _vetor );
 */
 
 // Simple sorts
-/*
-* void insertion_sort ( std::vector< int > & _vetor );
-*/
+void insertion_sort ( std::vector< int > & _vetor );
 void selection_sort ( std::vector< int > & _vetor );
 // Efficient sorts
 /*
