@@ -3,12 +3,13 @@
 
 #include <iostream>     // std::cout
 #include <iterator>     // std::ostream_iterator
+#include <vector>       // std::vector
 
-void print_array ( int * _first, int * _last );
+void print_array ( std::vector< int > _vetor );
 
 /*
 * Sorting functions
 */
-int bubble_sort ( int * _first, int * _last );
+void bubble_sort ( std::vector< int > & _vetor );
 
 #endif /* __SORT_H__ */

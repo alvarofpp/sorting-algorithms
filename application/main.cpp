@@ -1,17 +1,30 @@
 #include "sort.h"
-#include <iostream>
+#include <iostream>    // std::cout, std::endl
+#include <ctime>       // srand, rand
+#include <array>       // std::array
+#include <vector>      // std::vector
 
-using namespace std;
+const int QTDE_TESTES = 10;
 
 int main(int argc, char * argv[])
 {
-	int vetor[] = { 5, 4, 8, 7, 1, 3 };
-	print_array( std::begin(vetor), std::end(vetor) );
+	srand( ( unsigned ) time( 0 ) );
+	std::vector<int> vetor;
 
-	int size_array = bubble_sort( std::begin(vetor), std::end(vetor) );
-	cout << "Length array: " << size_array << endl;
-	
-	print_array( std::begin(vetor), std::end(vetor) );
+	for (size_t num = 1; num < QTDE_TESTES; num++)
+	{
+		vetor.resize(num);
+		for (size_t i = 0; i < num; i++)
+			vetor[i] = rand() % QTDE_TESTES;
+
+		print_array( vetor );
+		std::cout << " <=-=> ";
+
+		bubble_sort( vetor );
+
+		print_array( vetor );
+		std::cout << std::endl;
+	}
 
     return 0;
 }
