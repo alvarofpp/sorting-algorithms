@@ -7,7 +7,8 @@ void print_array ( std::vector< int > _vetor )
 	std::cout << "]";
 }
 
-void swap(std::vector< int > & _vetor, int _left, int _right) {
+void swap ( std::vector< int > & _vetor, int _left, int _right )
+{
 	int aux = _vetor[_right];
 	_vetor[_right] = _vetor[_left];
 	_vetor[_left] = aux;

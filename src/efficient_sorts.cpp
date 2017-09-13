@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void quicksort ( std::vector< int > & _vetor, int _left, int _right )
+void quicksort ( std::vector< int > _vetor, int _left, int _right )
 {
     if(_left < _right) { 
         int boundary = _left;

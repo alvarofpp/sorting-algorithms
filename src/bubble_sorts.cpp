@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void bubble_sort ( std::vector< int > & _vetor )
+void bubble_sort ( std::vector< int > _vetor )
 {
 	int j = _vetor.size();
 
@@ -9,7 +9,7 @@ void bubble_sort ( std::vector< int > & _vetor )
 		for (int i = 0; i < j; i++)
 		{
 			if (_vetor[i] > _vetor[i+1])
-				swap(_vetor, i, i+1);
+				swap( _vetor, i, i+1 );
 		}
 	}
 }
