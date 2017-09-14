@@ -5,6 +5,10 @@
 #include <iterator>     // std::ostream_iterator
 #include <vector>       // std::vector
 
+/*
+* General functions
+*/
+
 void print_array ( std::vector< int > _vetor );
 void swap( std::vector< int > & _vetor, int _left, int _right );
 
