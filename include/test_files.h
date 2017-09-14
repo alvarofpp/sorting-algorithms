@@ -8,8 +8,9 @@ enum functions {
 	BUBBLE_SORT,
 };
 
-const std::string DIR_TEST = "test/";
-const size_t QTDE_TESTES = 10000;
 const int NUM_FUN = 4;
+const int TAM_INIT = 1;
+const size_t QTDE_TESTES = 100;
+const std::string DIR_TEST = "test/";
 
 #endif /* __TEST_FILES_H__ */

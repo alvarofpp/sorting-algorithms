@@ -10,14 +10,19 @@
 int main(int argc, char * argv[])
 {
 	std::ofstream file;
-	file.open( DIR_TEST + "tests.csv" );
-	file << "algoritmo;numero_elementos;tempo" << std::endl ;
+	if (TAM_INIT == 1)
+	{
+		file.open( DIR_TEST + "tests.csv" );
+		file << "algoritmo;numero_elementos;tempo" << std::endl;
+	}
+	else
+		file.open( DIR_TEST + "tests.csv", std::ofstream::out | std::ofstream::app );
 
 	srand( ( unsigned ) time( 0 ) );
 	std::vector<int> vetor;
 	auto start_total = std::chrono::steady_clock::now();
 
-	for (size_t num = 1; num <= QTDE_TESTES; num++)
+	for (size_t num = TAM_INIT; num <= QTDE_TESTES; num++)
 	{
 		vetor.resize(num);
 		for (size_t i = 0; i < num; i++)
@@ -46,7 +51,7 @@ int main(int argc, char * argv[])
 
 	file.close();
 
-	std::cout << "Tempo total: " << std::chrono::duration <double, std::ratio<1>> (diff_total).count() << std::endl;
+	std::cout << "Tempo total: " << std::chrono::duration <double, std::milli> (diff_total).count() << std::endl;
 
     return EXIT_SUCCESS;
 }
