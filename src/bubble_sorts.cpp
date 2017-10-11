@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void bubble_sort ( std::vector< int > _vetor )
+void bubble_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
 	int j = _vetor.size();
 

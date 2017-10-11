@@ -1,45 +1,45 @@
 #ifndef __SORT_H__
 #define __SORT_H__
 
-#include <iostream>     // std::cout
+#include <vector>
+#include <iostream>
 #include <iterator>     // std::ostream_iterator
-#include <vector>       // std::vector
+
+// vector
+using std::vector;
+
+// iostream
+using std::cout;
+using std::endl;
+using std::cin;
 
 /*
 * General functions
 */
-
-void print_array ( std::vector< int > _vetor );
-void swap( std::vector< int > & _vetor, int _left, int _right );
+bool verify_order ( vector<int> & _vetor, int _order );
+void print_array ( vector<int> & _vetor );
+void swap ( vector<int> & _vetor, int _left, int _right );
 
 /*
 * Sorting functions
 */
-
 // Simple sorts
-void insertion_sort ( std::vector< int > _vetor );
-void selection_sort ( std::vector< int > _vetor );
-
-// Efficient sorts
-/*
-* void merge_sort ( std::vector< int > _vetor );
-* void heapsort ( std::vector< int > _vetor );
-*/
-void quicksort ( std::vector< int > _vetor, int _left, int _right );
+void insertion_sort ( vector<int> & _vetor, int _left, int _right );
+void selection_sort ( vector<int> & _vetor, int _left, int _right );
 
 // Bubble sort and variants
-void bubble_sort ( std::vector< int > _vetor );
+void bubble_sort ( vector<int> & _vetor, int _left, int _right );
 /*
-* void shellsort ( std::vector< int > _vetor );
-* void comb_sort ( std::vector< int > _vetor );
-* void cocktail_shaker_sort ( std::vector< int > _vetor );
+* void shell_sort ( std::vector<int> & _vetor );
+*/
+
+// Efficient sorts
+void quicksort ( vector<int> & _vetor, int _left, int _right );
+/*
+* void merge_sort ( std::vector<int> & _vetor );
 */
 
 // Distribution sort
-/*
-* void counting_sort ( std::vector< int > _vetor );
-* void bucket_sort ( std::vector< int > _vetor );
-* void radix_sort ( std::vector< int > _vetor );
-*/
+// void radix_sort ( vector<int> & _vetor );
 
 #endif /* __SORT_H__ */

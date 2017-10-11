@@ -1,7 +1,10 @@
 #include "sort.h"
 
-void quicksort ( std::vector< int > _vetor, int _left, int _right )
+void quicksort ( vector<int> & _vetor, int _left = 0, int _right = -1 )
 {
+    if (_right == -1)
+        _right = _vetor.size()-1;
+
     if(_left < _right) { 
         int boundary = _left;
         for (int i = _left + 1; i < _right; i++) { 

@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void insertion_sort ( std::vector< int > _vetor )
+void insertion_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
 	int size = _vetor.size();
 	int aux;
@@ -18,10 +18,11 @@ void insertion_sort ( std::vector< int > _vetor )
 	}
 }
 
-void selection_sort ( std::vector< int > _vetor )
+void selection_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
 	int size = _vetor.size();
 	int menor;
+	bool troca = false;
 
 	for (int i = 0; i < size; i++)
 	{
@@ -33,8 +34,14 @@ void selection_sort ( std::vector< int > _vetor )
 				continue;
 			}
 			else if (_vetor[menor] > _vetor[j])
+			{
+				troca = true;
 				menor = j;
+			}
 		}
+
+		if (!troca)
+			break;
 
 		swap( _vetor, i, menor );
 	}
