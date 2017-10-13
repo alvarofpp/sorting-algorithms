@@ -33,9 +33,7 @@ void selection_sort ( vector<int> & _vetor, int _left, int _right );
 
 // Bubble sort and variants
 void bubble_sort ( vector<int> & _vetor, int _left, int _right );
-/*
-* void shell_sort ( std::vector<int> & _vetor );
-*/
+void shell_sort ( std::vector<int> & _vetor );
 
 // Efficient sorts
 void quicksort ( vector<int> & _vetor, int _left, int _right );
