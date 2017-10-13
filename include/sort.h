@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 #include <iterator>     // std::ostream_iterator
+#include <algorithm>    // std::min_element, std::max_element
 
 // vector
 using std::vector;
@@ -12,6 +13,9 @@ using std::vector;
 using std::cout;
 using std::endl;
 using std::cin;
+
+// algorithm
+using std::max_element;
 
 /*
 * General functions
@@ -40,6 +44,6 @@ void quicksort ( vector<int> & _vetor, int _left, int _right );
 */
 
 // Distribution sort
-// void radix_sort ( vector<int> & _vetor );
+void radix_sort ( vector<int> & _vetor );
 
 #endif /* __SORT_H__ */
