@@ -20,7 +20,6 @@ using std::max_element;
 /*
 * General functions
 */
-bool verify_order ( vector<int> & _vetor, int _order );
 void print_array ( vector<int> & _vetor );
 void swap ( vector<int> & _vetor, int _left, int _right );
 

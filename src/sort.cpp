@@ -1,12 +1,5 @@
 #include "sort.h"
 
-bool verify_order ( vector<int> & _vetor, int _order )
-{
-	for (size_t i = 0; i < _vetor.size()-1; i++)
-		if (_vetor[i] > _vetor[i+1]) return false;
-	return true;
-}
-
 void print_array ( std::vector<int> & _vetor )
 {
 	cout << "[ ";

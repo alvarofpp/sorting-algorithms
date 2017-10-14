@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  11 OCT 2017 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  14 OCT 2017 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,6 +1132,58 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count269
+\lst@gtempboxa=\box64
+\lst@token=\toks37
+\lst@length=\count270
+\lst@currlwidth=\dimen180
+\lst@column=\count271
+\lst@pos=\count272
+\lst@lostspace=\dimen181
+\lst@width=\dimen182
+\lst@newlines=\count273
+\lst@lineno=\count274
+\lst@maxwidth=\dimen183
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count275
+\lst@skipnumbers=\count276
+\lst@framebox=\box65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 )
@@ -1141,8 +1193,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip273
 \ABCIauxlen=\skip274
-\c@ABCIaux=\count269
-\c@ABCImax=\count270
+\c@ABCIaux=\count277
+\c@ABCImax=\count278
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1150,38 +1202,41 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip275
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks37
+\ABCItoken=\toks38
 )
-Package color Info: Redefining color blue on input line 94.
-Package hyperref Info: Option `colorlinks' set `true' on input line 110.
+Package hyperref Info: Option `colorlinks' set `true' on input line 131.
 \relatorio@idxfile=\write4
 \openout4 = `relatorio.idx'.
 
 
 Writing index file relatorio.idx 
-(./relatorio.aux)
+(./relatorio.aux
+
+LaTeX Warning: Label `t_insertion_sort' multiply defined.
+
+)
 \openout1 = `relatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 195.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 174.
+\AtBeginShipoutBox=\box66
+Package hyperref Info: Link coloring ON on input line 195.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1189,32 +1244,32 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count271
+\c@section@level=\count279
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \degres on input line 174.
-LaTeX Info: Redefining \dots on input line 174.
-LaTeX Info: Redefining \up on input line 174.
-\myptabbox=\box65
+LaTeX Info: Redefining \nameref on input line 195.
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
+LaTeX Info: Redefining \degres on input line 195.
+LaTeX Info: Redefining \dots on input line 195.
+LaTeX Info: Redefining \up on input line 195.
+\myptabbox=\box67
 \myptabboxwidth=\skip276
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen180
-\scratchbox=\box66
-\nofMPsegments=\count273
-\nofMParguments=\count274
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen181
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count280
+\scratchdimen=\dimen184
+\scratchbox=\box68
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen185
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1230,7 +1285,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 174.
+LaTeX Info: Redefining \microtypecontext on input line 195.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1245,7 +1300,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 188.
+\c@lstlisting=\count286
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 209.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -1261,7 +1317,7 @@ Package microtype Info: Character `029' is missing
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 196.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 217.
 
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1318,51 +1374,183 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (./chapters/intrudocao.tex [3
 
 
-]) (./chapters/metodo.tex [4])
-(./chapters/resultados.tex [5
+]) (./chapters/metodo.tex [4]
 
-]) (./chapters/discussao.tex [6
+LaTeX Warning: Citation `meyers1997cpp' on page 5 undefined on input line 27.
 
-]) [7
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 29.
+[5
+
+] <img/insertion-sort.png, id=106, 427.5975pt x 310.91156pt>
+File: img/insertion-sort.png Graphic file (type png)
+
+<use img/insertion-sort.png>
+Package pdftex.def Info: img/insertion-sort.png used on input line 41.
+(pdftex.def)             Requested size: 427.59645pt x 310.91078pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 43.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.2.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./img/insertion-sort.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 68.
+ (./codes/insertion_sort.cpp) [7]
+<img/selection-sort.jpg, id=153, 325.215pt x 396.7322pt>
+File: img/selection-sort.jpg Graphic file (type jpg)
+
+<use img/selection-sort.jpg>
+Package pdftex.def Info: img/selection-sort.jpg used on input line 75.
+(pdftex.def)             Requested size: 325.2142pt x 396.73122pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.2.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 
+      <./img/selection-sort.jpg>] (./codes/selection_sort.cpp [9])
+pdfTeX warning (ext1): too large image resolution ignored
+<img/bubble-sort.png, id=196, 348.30125pt x 236.885pt>
+File: img/bubble-sort.png Graphic file (type png)
+
+<use img/bubble-sort.png>
+Package pdftex.def Info: img/bubble-sort.png used on input line 107.
+(pdftex.def)             Requested size: 348.3004pt x 236.88441pt.
+ (./codes/bubble_sort.cpp [10pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 	int 
+         j = _vetor.size();pdfTeX warning (ext4): destination with the same ide
+ntifier (name{table.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 	int 
+         j = _vetor.size(); <./img/bubble-sort.png>])
+<img/shell-sort.png, id=211, 513.92pt x 462.72874pt>
+File: img/shell-sort.png Graphic file (type png)
+ <use img/shell-sort.png>
+Package pdftex.def Info: img/shell-sort.png used on input line 139.
+(pdftex.def)             Requested size: 513.91873pt x 462.72762pt.
+
+Overfull \hbox (58.91873pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.163 
+      ] (./codes/shell_sort.cpp [12pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 	//
+        Espaco entre elementos comparados <./img/shell-sort.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/lmr/m/n/12 (+20) Depende da
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 184--184
+\T1/lmr/m/n/12 (+20) sequên-cia da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[]|$\OML/lmm/m/it/12 O\OT1/lmr/m/n/12 (+20) (\OML/lmm/m/it/12 nlog[]n\OT1/lmr/m
+/n/12 (+20) )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+\T1/lmr/m/n/12 (+20) (me-lhor
+ []
+
+[13]) (./chapters/resultados.tex [14pdfTeX warning (ext4): destination with the
+ same identifier (name{table.2.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Resultados}]) (./chapters/discussao.tex [15
+
+])
+No file relatorio.bbl.
+[16
 
 ]
 \tf@toc=\write5
 \openout5 = `relatorio.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+ (./relatorio.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
 
-(./relatorio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 209.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  ) 
 Here is how much of TeX's memory you used:
- 14714 strings out of 493029
- 216259 string characters out of 6136234
- 481449 words of memory out of 5000000
- 17947 multiletter control sequences out of 15000+600000
- 52898 words of font info for 65 fonts, out of 8000000 for 9000
+ 17299 strings out of 493029
+ 250033 string characters out of 6136234
+ 600973 words of memory out of 5000000
+ 20255 multiletter control sequences out of 15000+600000
+ 91259 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,36p,539b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,13n,58p,749b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
-x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on relatorio.pdf (7 pages, 244895 bytes).
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcs
+c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+s12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on relatorio.pdf (16 pages, 504717 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 20009 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 32429 words of extra memory for PDF output out of 35830 (max. 10000000)
 

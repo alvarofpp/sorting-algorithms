@@ -13,7 +13,7 @@
 	french,				% idioma adicional para hifenização
 	spanish,			% idioma adicional para hifenização
 	brazil,				% o último idioma é o principal do documento
-	]{abntex2}
+]{abntex2}
 
 
 % ---
@@ -43,7 +43,7 @@
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
 \usepackage{lipsum}				% para geração de dummy text
-% ---	
+% ---
 % ---
 % PACOTES QUE EU (Álvaro Ferreira Pires de Paiva) ADICIONEI
 % ---
@@ -51,6 +51,27 @@
 \usepackage{longtable}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{xcolor}
+% C++
+\definecolor{verde}{rgb}{0,0.5,0}
+\lstset{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{verde},
+  commentstyle=\color{red},
+  extendedchars=true,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  backgroundcolor=\color{green!10},
+  breakautoindent=true,
+  captionpos=b,
+  xleftmargin=0pt,
+}
 
 % ---
 % Pacotes de citações
@@ -205,5 +226,7 @@
 \input{chapters/metodo.tex}
 \input{chapters/resultados.tex}
 \input{chapters/discussao.tex}
+
+\bibliography{bib/relatorio.bib}
 
 \end{document}

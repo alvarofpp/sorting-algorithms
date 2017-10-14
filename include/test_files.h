@@ -3,9 +3,13 @@
 
 #include <cmath>
 #include <string>
+#include <vector>
 
 // string
 using std::string;
+
+// vector
+using std::vector;
 
 // Funções que para analisar
 enum functions
@@ -23,8 +27,8 @@ enum functions
 enum casos
 {
 	ALEATORIO = 0,
-	ORDENADO,
-	ORDENADO_INVERSO
+	CRESCENTE,
+	DECRESCENTE
 };
 
 typedef void (*Sorting)( vector<int> & _vetor, int _left, int _right );
@@ -51,5 +55,8 @@ const size_t QTDE_MEDIA = 50;
 const size_t QTDE_CASOS = 3;
 // Diretório que sairá o arquivo com os resultados dos testes para análise
 const string DIR_TEST = "test/";
+
+// Verificar a ordem do vector
+bool verify_order ( vector<int> & _vetor, int _order );
 
 #endif /* __TEST_FILES_H__ */
