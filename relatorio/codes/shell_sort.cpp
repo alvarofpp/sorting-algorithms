@@ -1,4 +1,4 @@
-void shell_sort ( std::vector<int> & _vetor, int _left = 0, int _right = 0  )
+void shell_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
 	// Tamanho do vetor
 	size_t size = _vetor.size();

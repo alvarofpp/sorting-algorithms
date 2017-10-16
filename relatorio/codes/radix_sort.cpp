@@ -1,10 +1,10 @@
-void radix_sort ( vector<int> & _vetor )
+void radix_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
-    // Vetor temporário para realizar a ordenação
+    // Vetor temporario para realizar a ordenacao
     vector<int> temp[10];
-    // Pega o maior elemento do vetor, logicamente é o que contêm maior quantidade de digitos
+    // Pega o maior elemento do vetor, logicamente e o que contem maior quantidade de digitos
     int max = *( max_element ( std::begin(_vetor), std::end(_vetor) ) );
-    // Essa variável irá nos ajudar a percorrer cada digito dos números presentes no vetor
+    // Essa variavel ira nos ajudar a percorrer cada digito dos numeros presentes no vetor
     int n = 1;
 
     while (n <= max)
@@ -14,15 +14,15 @@ void radix_sort ( vector<int> & _vetor )
         {
             // Pegamos o digito que estamos verificando
             int lsd = (v/n)%10;
-            // Adicionamos ele a seu respectivo lugar no vetor temporário
+            // Adicionamos ele a seu respectivo lugar no vetor temporario
             temp[lsd].emplace_back(v);
         }
 
         int k = 0;
-        // Percorremos o vetor temporário (que agr será uma espécie de matriz)
+        // Percorremos o vetor temporario (que agr sera uma especie de matriz)
         for (auto &v: temp)
         { 
-            // Se não existir nenhum elemento nessa parte do vetor, pulamos ela
+            // Se nao existir nenhum elemento nessa parte do vetor, pulamos ela
             if (v.size() <= 0)
                 continue;
             // Caso exista, iremos percorrer os elementos registrados aqui
@@ -32,7 +32,7 @@ void radix_sort ( vector<int> & _vetor )
 
             v.clear();
         }
-        // Multiplicamos por 10 para que no cálculo do 'lsd', estejamos verificando o próximo digito
+        // Multiplicamos por 10 para que no calculo do `lsd', estejamos verificando o proximo digito
         n *= 10;
     }
 }

@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void radix_sort ( vector<int> & _vetor )
+void radix_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
     // Vetor temporário para realizar a ordenação
     vector<int> temp[10];

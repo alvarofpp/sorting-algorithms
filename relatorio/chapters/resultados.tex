@@ -1,1 +1,112 @@
 \chapter{Resultados}
+Nessa capítulo, constará os gráficos e tabelas referentes aos resultados do experimento. Primeiro será apresentado os dados de cada um dos algoritmos e após uma visão geral.
+
+\section{Resultados de cada algoritmo}
+A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias finais de cada algoritmo para sua respectiva entrada de elementos. O tempo foi medido em milissegundos. A primeira coluna consta a quantidade de elementos presente no arranjo, as outras 3 colunas constam, respectivamente, o tempo médio que o algoritmo levou para arranjos aleatórios, arranjos com elementos em ordem crescente e arranjos com elementos em ordem decrescente.
+
+\subsection{Insertion sort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Insertion_Sort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Insertion Sort}
+	\label{t-insertion}
+\end{longtable}
+
+\subsection{Selection sort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Selection_Sort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Selection Sort}
+	\label{t-selection}
+\end{longtable}
+
+\subsection{Bubble sort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Bubble_Sort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Bubble Sort}
+	\label{t-bubble}
+\end{longtable}
+
+\subsection{Shell sort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Shell_Sort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Shell Sort}
+	\label{t-shell}
+\end{longtable}
+
+\subsection{Quicksort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Quicksort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Quicksort}
+	\label{t-quick}
+\end{longtable}
+
+\subsection{Merge sort}
+\begin{longtable}{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Merge_Sort.csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Merge Sort}
+	\label{t-merge}
+\end{longtable}
+
+\subsection{Radix sort (LSD)}
+\begin{longtable}[c]{|r|c|c|c|}
+	\hline
+	\csvreader[
+		column count=5,
+		no head,
+		table head=\hline,
+		late after line=\\\hline
+	]{csvs/Radix_sort_(LSD).csv}{
+		1=\n-elementos, 2=\aleatorio, 3=\crescente, 4=\decrescente
+	}{ \n-elementos & \aleatorio & \crescente & \decrescente }
+	\caption{Média de tempo do Radix Sort (LSD)}
+	\label{t-radix}
+\end{longtable}
+
+\section{Resultados gerais}

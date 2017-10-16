@@ -53,6 +53,8 @@
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{csvsimple}
+
 % C++
 \definecolor{verde}{rgb}{0,0.5,0}
 \lstset{
@@ -71,6 +73,27 @@
   breakautoindent=true,
   captionpos=b,
   xleftmargin=0pt,
+}
+
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{jpurple}\bfseries,
+    stringstyle=\color{red},
+    commentstyle=\color{verde},
+    morecomment=[s][\color{blue}]{/**}{*/},
+    extendedchars=true,
+    showspaces=false,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny,
+    breaklines=true,
+    backgroundcolor=\color{cyan!10},
+    breakautoindent=true,
+    captionpos=b,
+    xleftmargin=0pt,
+    tabsize=2
 }
 
 % ---
@@ -207,6 +230,22 @@
 % ---
 \pagestyle{empty} % Removes page numbers
 \titleGP % This command includes the title page
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
 \cleardoublepage
 % ---
 

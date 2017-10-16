@@ -21,7 +21,7 @@ void bubble_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 	}
 }
 
-void shell_sort ( std::vector<int> & _vetor )
+void shell_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 {
 	// Tamanho do vetor
 	size_t size = _vetor.size();
@@ -36,7 +36,7 @@ void shell_sort ( std::vector<int> & _vetor )
         	// Indice do elemento que será usado na comparação
             size_t j = i + gap;
             // Valor do elemento que será usado na comparação
-            size_t tmp = _vetor[j];
+            int tmp = _vetor[j];
             // Realiza as trocas
             while ((j >= gap) && (tmp < _vetor[j - gap]))
             {
