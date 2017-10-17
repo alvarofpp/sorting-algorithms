@@ -4,6 +4,8 @@ Nessa capítulo, constará os gráficos e tabelas referentes aos resultados do e
 \section{Resultados de cada algoritmo}
 A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias finais de cada algoritmo para sua respectiva entrada de elementos. O tempo foi medido em milissegundos. A primeira coluna consta a quantidade de elementos presente no arranjo, as outras 3 colunas constam, respectivamente, o tempo médio que o algoritmo levou para arranjos aleatórios, arranjos com elementos em ordem crescente e arranjos com elementos em ordem decrescente.
 
+Em uma visão geral, podemos notar que os algoritmos realmente agem melhor nos arranjos ordenados crescentemente e que seus piores casos são quando o arranjo está ordenado em ordem decrescente.
+
 \subsection{Insertion sort}
 \begin{longtable}{|r|c|c|c|}
 	\hline
@@ -18,6 +20,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\caption{Média de tempo do Insertion Sort}
 	\label{t-insertion}
 \end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/insertion_sort.png}
+	\caption{Insertion Sort, gráfico de resultados.}
+	\label{graph-insertion}
+\end{figure}
 
 \subsection{Selection sort}
 \begin{longtable}{|r|c|c|c|}
@@ -34,6 +43,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\label{t-selection}
 \end{longtable}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/selection_sort.png}
+	\caption{Selection Sort, gráfico de resultados.}
+	\label{graph-selection}
+\end{figure}
+
 \subsection{Bubble sort}
 \begin{longtable}{|r|c|c|c|}
 	\hline
@@ -48,6 +64,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\caption{Média de tempo do Bubble Sort}
 	\label{t-bubble}
 \end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/bubble_sort.png}
+	\caption{Bubble Sort, gráfico de resultados.}
+	\label{graph-bubble}
+\end{figure}
 
 \subsection{Shell sort}
 \begin{longtable}{|r|c|c|c|}
@@ -64,6 +87,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\label{t-shell}
 \end{longtable}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/shell_sort.png}
+	\caption{Shell Sort, gráfico de resultados.}
+	\label{graph-shell}
+\end{figure}
+
 \subsection{Quicksort}
 \begin{longtable}{|r|c|c|c|}
 	\hline
@@ -78,6 +108,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\caption{Média de tempo do Quicksort}
 	\label{t-quick}
 \end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/quicksort.png}
+	\caption{Quicksort, gráfico de resultados.}
+	\label{graph-quicksort}
+\end{figure}
 
 \subsection{Merge sort}
 \begin{longtable}{|r|c|c|c|}
@@ -94,6 +131,13 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\label{t-merge}
 \end{longtable}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/merge_sort.png}
+	\caption{Merge Sort, gráfico de resultados.}
+	\label{graph-merge}
+\end{figure}
+
 \subsection{Radix sort (LSD)}
 \begin{longtable}[c]{|r|c|c|c|}
 	\hline
@@ -109,4 +153,33 @@ A seguir, poderá ser encontrado as tabelas e gráficos referentes as médias fi
 	\label{t-radix}
 \end{longtable}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/algoritmos/radix.png}
+	\caption{Radix sort (LSD), gráfico de resultados.}
+	\label{graph-radix}
+\end{figure}
+
 \section{Resultados gerais}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/graficos/aleatorios.png}
+	\caption{Gráfico de resultados para arranjos com elementos aleatórios.}
+	\label{graph-aleatorios}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/graficos/crescentes.png}
+	\caption{Gráfico de resultados para arranjos com elementos em ordem crescente.}
+	\label{graph-crescentes}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/graficos/decrescentes.png}
+	\caption{Gráfico de resultados para arranjos com elementos em ordem decrescente.}
+	\label{graph-decrescentes}
+\end{figure}

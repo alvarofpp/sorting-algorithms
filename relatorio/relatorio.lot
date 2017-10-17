@@ -9,9 +9,9 @@
 \contentsline {table}{\numberline {8}{\ignorespaces Vis\IeC {\~a}o geral dos algoritmos de ordena\IeC {\c c}\IeC {\~a}o}}{22}{table.2.8}
 \contentsline {table}{\numberline {9}{\ignorespaces Algoritmos e suas respectivas cores nos gr\IeC {\'a}ficos.}}{24}{table.2.9}
 \contentsline {table}{\numberline {10}{M\IeC {\'e}dia de tempo do Insertion Sort}}{26}{table.3.10}
-\contentsline {table}{\numberline {11}{M\IeC {\'e}dia de tempo do Selection Sort}}{27}{table.3.11}
-\contentsline {table}{\numberline {12}{M\IeC {\'e}dia de tempo do Bubble Sort}}{28}{table.3.12}
-\contentsline {table}{\numberline {13}{M\IeC {\'e}dia de tempo do Shell Sort}}{29}{table.3.13}
-\contentsline {table}{\numberline {14}{M\IeC {\'e}dia de tempo do Quicksort}}{31}{table.3.14}
-\contentsline {table}{\numberline {15}{M\IeC {\'e}dia de tempo do Merge Sort}}{32}{table.3.15}
-\contentsline {table}{\numberline {16}{M\IeC {\'e}dia de tempo do Radix Sort (LSD)}}{33}{table.3.16}
+\contentsline {table}{\numberline {11}{M\IeC {\'e}dia de tempo do Selection Sort}}{28}{table.3.11}
+\contentsline {table}{\numberline {12}{M\IeC {\'e}dia de tempo do Bubble Sort}}{30}{table.3.12}
+\contentsline {table}{\numberline {13}{M\IeC {\'e}dia de tempo do Shell Sort}}{32}{table.3.13}
+\contentsline {table}{\numberline {14}{M\IeC {\'e}dia de tempo do Quicksort}}{34}{table.3.14}
+\contentsline {table}{\numberline {15}{M\IeC {\'e}dia de tempo do Merge Sort}}{36}{table.3.15}
+\contentsline {table}{\numberline {16}{M\IeC {\'e}dia de tempo do Radix Sort (LSD)}}{38}{table.3.16}
