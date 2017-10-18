@@ -31,4 +31,6 @@
 \contentsline {subsection}{\numberline {3.1.7}Radix sort (LSD)}{37}{subsection.3.1.7}
 \contentsline {section}{\numberline {3.2}Resultados gerais}{39}{section.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Discuss\IeC {\~a}o}}{41}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Discuss\IeC {\~a}o}}{42}{chapter.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Consultas e refer\IeC {\^e}ncias}}{45}{chapter.5}

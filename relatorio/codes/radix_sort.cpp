@@ -32,7 +32,7 @@ void radix_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 
             v.clear();
         }
-        // Multiplicamos por 10 para que no calculo do `lsd', estejamos verificando o proximo digito
+        // Multiplicamos por 10 para que no calculo do 'lsd', estejamos verificando o proximo digito
         n *= 10;
     }
 }

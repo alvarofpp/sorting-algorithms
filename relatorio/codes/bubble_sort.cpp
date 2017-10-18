@@ -7,7 +7,7 @@ void bubble_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 	{
 		/*
 		* Percorremos o vetor da esquerda para a direita.
-		* Vamos so ate `j' pois sempre garantimos que os elementos > `j' ja estao ordenados
+		* Vamos so ate 'j' pois sempre garantimos que os elementos > 'j' ja estao ordenados
 		*/
 		for (int i = 0; i < j; i++)
 		{

@@ -1,6 +1,6 @@
 void new_numbers (vector<int> & _vetor, size_t _num )
 {
-	// Insere novos numeros aleatorios de 0 a `_num'
+	// Insere novos numeros aleatorios de 0 a '_num'
 	for (size_t i = 0; i < _num; i++)
 		_vetor[i] = rand() % _num;
 	// Verifica se os elementos do vetor estao realmente aleatorios

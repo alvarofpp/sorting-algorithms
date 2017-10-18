@@ -9,8 +9,8 @@ void selection_sort ( vector<int> & _vetor, int _left = 0, int _right = 0 )
 	for (int i = 0; i < size; i++)
 	{
 		/*
-		* Comecamos do elemento `i', pois sempre iremos garantir que os elementos menor que ci' estejam ja ordenados.
-		* Logo nao e necessario percorrer eles nesse segundo `for'
+		* Comecamos do elemento 'i', pois sempre iremos garantir que os elementos menor que 'i' estejam ja ordenados.
+		* Logo nao e necessario percorrer eles nesse segundo 'for'
 		*/
 		for (int j = i; j < size; j++)
 		{

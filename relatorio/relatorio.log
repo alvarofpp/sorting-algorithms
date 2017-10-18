@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  16 OCT 2017 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  17 OCT 2017 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,7 +1410,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
  [7
 
 ]) [8]
-<img/insertion-sort.png, id=245, 427.5975pt x 310.91156pt>
+<img/insertion-sort.png, id=257, 427.5975pt x 310.91156pt>
 File: img/insertion-sort.png Graphic file (type png)
 
 <use img/insertion-sort.png>
@@ -1431,7 +1431,7 @@ fier (name{table.2.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.3 	// 
         Tamanho do vetor <./img/insertion-sort.png>])
-<img/selection-sort.jpg, id=255, 325.215pt x 396.7322pt>
+<img/selection-sort.jpg, id=267, 325.215pt x 396.7322pt>
 File: img/selection-sort.jpg Graphic file (type jpg)
 
 <use img/selection-sort.jpg>
@@ -1451,7 +1451,7 @@ e same identifier (name{table.2.2}) has been already used, duplicate ignored
 l.15 		for 
            (int j = i; j < size; j++) <./img/selection-sort.jpg>])
 pdfTeX warning (ext1): too large image resolution ignored
-<img/bubble-sort.png, id=308, 348.30125pt x 236.885pt>
+<img/bubble-sort.png, id=320, 348.30125pt x 236.885pt>
 File: img/bubble-sort.png Graphic file (type png)
 
 <use img/bubble-sort.png>
@@ -1470,7 +1470,7 @@ warning (ext4): destination with the same identifier (name{table.2.3}) has been
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.138 
-      ] <img/shell-sort.png, id=361, 513.92pt x 462.72874pt>
+      ] <img/shell-sort.png, id=373, 513.92pt x 462.72874pt>
 File: img/shell-sort.png Graphic file (type png)
 
 <use img/shell-sort.png>
@@ -1490,7 +1490,7 @@ s been already used, duplicate ignored
                                                   \fi \fi 
 l.10     	// 
              Do primeiro indice ate o indice que permite realizar a comparacao 
-<./img/shell-sort.png>]) <img/quicksort.png, id=376, 680.5425pt x 517.935pt>
+<./img/shell-sort.png>]) <img/quicksort.png, id=388, 680.5425pt x 517.935pt>
 File: img/quicksort.png Graphic file (type png)
 
 <use img/quicksort.png>
@@ -1509,7 +1509,7 @@ l.11         int
                                                   \fi \fi 
 l.11         int 
                  pivot = _left; <./img/quicksort.png>])
-<img/merge_sort.png, id=424, 573.342pt x 550.858pt>
+<img/merge_sort.png, id=436, 573.342pt x 550.858pt>
 File: img/merge_sort.png Graphic file (type png)
  <use img/merge_sort.png>
 Package pdftex.def Info: img/merge_sort.png used on input line 205.
@@ -1528,7 +1528,7 @@ same identifier (name{table.2.6}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.12     int 
              *L = new int[ len_L ]; <./img/merge_sort.png>] [19])
-<img/radix_sort.png, id=506, 439.6425pt x 190.46156pt>
+<img/radix_sort.png, id=518, 439.6425pt x 190.46156pt>
 File: img/radix_sort.png Graphic file (type png)
 
 <use img/radix_sort.png>
@@ -1598,7 +1598,7 @@ Overfull \hbox (33.40482pt too wide) in alignment at lines 19--22
 
 [25
 
-] <img/algoritmos/insertion_sort.png, id=639, 722.7pt x 481.8pt>
+] <img/algoritmos/insertion_sort.png, id=651, 722.7pt x 481.8pt>
 File: img/algoritmos/insertion_sort.png Graphic file (type png)
 
 <use img/algoritmos/insertion_sort.png>
@@ -1626,7 +1626,7 @@ Overfull \hbox (27.52983pt too wide) in alignment at lines 41--44
                                                   \fi \fi 
 l.44 \end{longtable}
                      <./img/algoritmos/insertion_sort.png>]
-<img/algoritmos/selection_sort.png, id=649, 722.7pt x 481.8pt>
+<img/algoritmos/selection_sort.png, id=661, 722.7pt x 481.8pt>
 File: img/algoritmos/selection_sort.png Graphic file (type png)
 
 <use img/algoritmos/selection_sort.png>
@@ -1654,7 +1654,7 @@ Overfull \hbox (21.65485pt too wide) in alignment at lines 63--66
                                                   \fi \fi 
 l.66 \end{longtable}
                      <./img/algoritmos/selection_sort.png>]
-<img/algoritmos/bubble_sort.png, id=659, 722.7pt x 481.8pt>
+<img/algoritmos/bubble_sort.png, id=671, 722.7pt x 481.8pt>
 File: img/algoritmos/bubble_sort.png Graphic file (type png)
 
 <use img/algoritmos/bubble_sort.png>
@@ -1681,7 +1681,7 @@ Overfull \hbox (33.40482pt too wide) in alignment at lines 85--88
                                                   \fi \fi 
 l.88 \end{longtable}
                      <./img/algoritmos/bubble_sort.png>]
-<img/algoritmos/shell_sort.png, id=670, 722.7pt x 481.8pt>
+<img/algoritmos/shell_sort.png, id=682, 722.7pt x 481.8pt>
 File: img/algoritmos/shell_sort.png Graphic file (type png)
 
 <use img/algoritmos/shell_sort.png>
@@ -1708,7 +1708,7 @@ Overfull \hbox (39.2798pt too wide) in alignment at lines 107--110
                                                   \fi \fi 
 l.110 \end{longtable}
                       <./img/algoritmos/shell_sort.png>]
-<img/algoritmos/quicksort.png, id=680, 722.7pt x 481.8pt>
+<img/algoritmos/quicksort.png, id=692, 722.7pt x 481.8pt>
 File: img/algoritmos/quicksort.png Graphic file (type png)
 
 <use img/algoritmos/quicksort.png>
@@ -1735,7 +1735,7 @@ Overfull \hbox (21.65485pt too wide) in alignment at lines 129--132
                                                   \fi \fi 
 l.132 \end{longtable}
                       <./img/algoritmos/quicksort.png>]
-<img/algoritmos/merge_sort.png, id=690, 722.7pt x 481.8pt>
+<img/algoritmos/merge_sort.png, id=702, 722.7pt x 481.8pt>
 File: img/algoritmos/merge_sort.png Graphic file (type png)
 
 <use img/algoritmos/merge_sort.png>
@@ -1762,61 +1762,101 @@ Overfull \hbox (39.2798pt too wide) in alignment at lines 151--154
                                                   \fi \fi 
 l.154 \end{longtable}
                       <./img/algoritmos/merge_sort.png>]
-<img/algoritmos/radix.png, id=701, 722.7pt x 481.8pt>
+<img/algoritmos/radix.png, id=714, 722.7pt x 481.8pt>
 File: img/algoritmos/radix.png Graphic file (type png)
 
 <use img/algoritmos/radix.png>
 Package pdftex.def Info: img/algoritmos/radix.png used on input line 158.
 (pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
  [38]
-<img/graficos/aleatorios.png, id=706, 722.7pt x 481.8pt>
+<img/graficos/aleatorios.png, id=719, 722.7pt x 481.8pt>
 File: img/graficos/aleatorios.png Graphic file (type png)
 
 <use img/graficos/aleatorios.png>
-Package pdftex.def Info: img/graficos/aleatorios.png used on input line 168.
-(pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
-
-<img/graficos/crescentes.png, id=707, 722.7pt x 481.8pt>
-File: img/graficos/crescentes.png Graphic file (type png)
-
-<use img/graficos/crescentes.png>
-Package pdftex.def Info: img/graficos/crescentes.png used on input line 175.
+Package pdftex.def Info: img/graficos/aleatorios.png used on input line 172.
 (pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
  [39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.179 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.15}) has been already used, duplicate ignored
+l.176 
+       <./img/algoritmos/radix.png>]
+<img/graficos/crescentes.png, id=725, 722.7pt x 481.8pt>
+File: img/graficos/crescentes.png Graphic file (type png)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.179 
-       <./img/algoritmos/radix.png> <./img/graficos/aleatorios.png>]
-<img/graficos/decrescentes.png, id=715, 722.7pt x 481.8pt>
+<use img/graficos/crescentes.png>
+Package pdftex.def Info: img/graficos/crescentes.png used on input line 179.
+(pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
+
+<img/graficos/decrescentes.png, id=726, 722.7pt x 481.8pt>
 File: img/graficos/decrescentes.png Graphic file (type png)
 
 <use img/graficos/decrescentes.png>
-Package pdftex.def Info: img/graficos/decrescentes.png used on input line 182.
+Package pdftex.def Info: img/graficos/decrescentes.png used on input line 186.
 (pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
 ) (./chapters/discussao.tex [40pdfTeX warning (ext4): destination with the same
- identifier (name{figure.3.16}) has been already used, duplicate ignored
+ identifier (name{figure.3.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Discussão}pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.3.17}) has been already used, duplicate ignored
+fier (name{figure.3.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Discussão} <./img/graficos/crescentes.png> <./img/graficos/decres
-centes.png>])
-No file relatorio.bbl.
-[41
+            {Discussão} <./img/graficos/aleatorios.png> <./img/graficos/cresce
+ntes.png>] [41pdfTeX warning (ext4): destination with the same identifier (name
+{figure.3.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Discussão} <./img/graficos/decrescentes.png>]
+<img/igualdade/aleatorios.png, id=738, 722.7pt x 481.8pt>
+File: img/igualdade/aleatorios.png Graphic file (type png)
+
+<use img/igualdade/aleatorios.png>
+Package pdftex.def Info: img/igualdade/aleatorios.png used on input line 6.
+(pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
+
+<img/igualdade/crescentes.png, id=739, 722.7pt x 481.8pt>
+File: img/igualdade/crescentes.png Graphic file (type png)
+
+<use img/igualdade/crescentes.png>
+Package pdftex.def Info: img/igualdade/crescentes.png used on input line 13.
+(pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
+ [42
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.17 
+      <./img/igualdade/aleatorios.png>]
+<img/igualdade/decrescentes.png, id=745, 722.7pt x 481.8pt>
+File: img/igualdade/decrescentes.png Graphic file (type png)
+
+<use img/igualdade/decrescentes.png>
+Package pdftex.def Info: img/igualdade/decrescentes.png used on input line 20.
+(pdftex.def)             Requested size: 433.62334pt x 289.08221pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 
+      <./img/igualdade/crescentes.png> <./img/igualdade/decrescentes.png>])
+(./chapters/consultas.tex [44]) [45
 
 ]
 \tf@lof=\write6
@@ -1828,19 +1868,19 @@ No file relatorio.bbl.
 \tf@toc=\write8
 \openout8 = `relatorio.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (./relatorio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 271.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 19199 strings out of 493029
- 286748 string characters out of 6136234
+ 19389 strings out of 493029
+ 289298 string characters out of 6136234
  669488 words of memory out of 5000000
- 21788 multiletter control sequences out of 15000+600000
- 93090 words of font info for 138 fonts, out of 8000000 for 9000
+ 21959 multiletter control sequences out of 15000+600000
+ 93454 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,58p,859b,2015s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1861,10 +1901,10 @@ nts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10
 type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on relatorio.pdf (41 pages, 972049 bytes).
+Output written on relatorio.pdf (45 pages, 1130785 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 881 compressed objects within 9 object streams
- 458 named destinations out of 1000 (max. 500000)
- 33078 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 915 compressed objects within 10 object streams
+ 466 named destinations out of 1000 (max. 500000)
+ 33101 words of extra memory for PDF output out of 35830 (max. 10000000)
 

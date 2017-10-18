@@ -41,7 +41,7 @@ void merge ( vector<int> & _vetor, size_t _left, size_t _middle, size_t _right )
 
 void merge_sort ( vector<int> & _vetor, int _left = 0, int _right = -1 )
 {
-    // Usamos esse `if' para sabermos se e a primeira vez que o metodo e chamado
+    // Usamos esse 'if' para sabermos se e a primeira vez que o metodo e chamado
     if (_right == -1)
         // Ultimo indice valido do vetor
         _right = _vetor.size()-1;
